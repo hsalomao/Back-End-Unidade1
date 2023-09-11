@@ -12,7 +12,7 @@ class Endereco {
     }
 
     infos = function () {
-        return "End: " + this.logradouro + "," + this.numero + "\n"
+        return "End: " + this.logradouro + ", " + this.numero + "\n"
             + "Bairro: " + this.bairro + " - CEP: " + this.cep + "\n"
             + this.cidade + "/" + this.uf + " - " + this.pais;
     }
